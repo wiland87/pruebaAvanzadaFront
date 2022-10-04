@@ -2,11 +2,12 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-
-
+    
 }
 
-
+html{
+    width: 1600px;  
+}
 /**************star section header*********************/
 
 
@@ -28,7 +29,7 @@
     cursor: pointer;
 }
 
-
+/*header medium contiene el nabvar*/
 
 .header-medium {
     width: 60%;
@@ -49,6 +50,8 @@
 
 }
 
+
+/*iconos redes sociales */
 
 .icons-header {
    
@@ -103,7 +106,7 @@
     color: white;
 }
 
-.title h1 {
+.title {
     color: white;
     font-size: 4rem;
     font-weight: 700;
@@ -112,19 +115,18 @@
 
 .buttom input {
     width: 150px;
-    height: 60px;
+    height: 50px;
     padding: 10px;
     background-color: rgb(23, 121, 240);
     color: white;
     text-align: center;
-
 }
 
 /********end section banner**********/
 
 /********star section cards-info**********/
 .cards-info {
-    width: 100%;
+    width: 100%;   
     height: 750px;
     padding: 70px 220px;
     background-color: rgba(25, 2, 48, 0.993);
@@ -138,20 +140,22 @@
 .sub-title h2 {
     font-size: 3rem;
     text-transform: uppercase;
+  
 }
 
 .sub-title p {
     color: rgb(99, 97, 97);
+    margin-bottom: 70px;
 }
 
-
+/*contendedor de las cards*/
 .cards {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-between;  
     gap: 40px;
 
 }
+  /* contiene toda la info de las cards*/
 
 .cards-content {
     display: flex;
@@ -203,15 +207,18 @@
     padding: 10px 30px;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
 .parnerts img{
     background-color:  rgba(79, 151, 239, 0.507);
     padding: 5px;
+    cursor: pointer;
    
 }
 
 
 
 
+https://github.com/wiland87/pruebaAvanzadaFront.git
